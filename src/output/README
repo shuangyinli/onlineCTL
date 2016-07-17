@@ -1,4 +1,12 @@
 The code (demo) is about the model of online CTL, and it is based on multi-thread.
 
-usage: see the example.sh
+usage: 
+
+1. Download the source.
+
+2. cd ./src
+
+3. ./example.sh
+
+
 
