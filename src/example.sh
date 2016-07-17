@@ -4,7 +4,7 @@
 
 #The train set is the splits of IMDB which contains more than 200,000 movies.
 #
-#Check ../demo/ to show the input split files:
+#Check ../demo/splits/ to show the input split files:
 #Check ./output to show the output 
 # you must modify the setting.txt before you run your data.
 
@@ -17,6 +17,6 @@ rm -f ./output/*
 
 echo
 
-time ./ctl est ../demo/ setting.txt 20 ./output
+time ./ctl est ../demo/splits/ setting.txt 20 ./output
 
 echo
